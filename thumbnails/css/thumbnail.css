@@ -1,0 +1,32 @@
+.thumbnails {
+  width: 400px;
+}
+
+.active img {
+  width: 100%;
+  height: 280px;
+}
+
+.gutter a {
+  width: 5%;  
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: lightgrey;
+}
+
+.gutter-images {
+  width: 90%;
+  display: block;
+  float: left;
+}
+
+.gutter-images img {
+  width: 20%;
+  height: 55px;
+  display: block;
+  float: left;
+}

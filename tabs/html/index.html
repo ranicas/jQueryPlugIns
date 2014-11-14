@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/tabs.js"></script>
+    <link href="../css/tabs.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+  </head>
+
+  <body>
+    <ul class="tabs" data-content-tabs="#content-tabs">
+      <li><a class="active" href="#toy-poodle">Toy Poodle</a></li>
+      <li><a href="#cardigan-welsh-corgi">Cardigan Welsh Corgi</a></li>
+      <li><a href="#english-cocker-spaniel">English Cocker Spaniel</a></li>
+    </ul>
+    <div id="content-tabs">
+      <div class="tab-pane active" id="toy-poodle"><p>The Toy Poodle is good-natured and eager-to-please. He's also cheerful, loyal, proud, dignified, and extremely smart. When most people think of a "Poodle" they think of a feminine, girly dog. But nothing could be further from than the truth. He's actually very rugged and athletic. He's incredibly intelligent -- one of the most intelligent breeds -- and is easily trained</p></div>
+      <div class="tab-pane" id="cardigan-welsh-corgi"><p>The Cardigan Welsh Corgi equals big personality in a little dog. These are intelligent, active, alert little guys who will want to be the center of your world. They love to be with their families, and will shower you with loyalty, devotion and affection. They need daily exercise and love to take long walks with you. They are intelligent and eager to please and do great with obedience training</p></div>
+      <div class="tab-pane" id="english-cocker-spaniel"><p>The English Cocker Spaniel is one of the most popular breeds in the world, for many good reasons. They are hardy gundogs who are natural retrievers who enjoy the water. And they are also excellent housedogs and family companions. If that sounds like the perfect breed, you should also know that they need lots and lots of attention and affection.</p></div>
+    </div>
+    
+    <script>
+      $(function() {
+        $('.tabs').tabs();
+      })
+    </script>
+  </body>
+</html>

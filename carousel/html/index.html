@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/carousel.js"></script>
+    <link href="../css/carousel.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+  </head>
+
+  <body>
+    <div class="carousel">
+      <div class="items">
+        <img src="http://placekitten.com/800/400">
+        <img src="http://placecorgi.com/800/400">
+        <img src="http://sereedmedia.com/srmwp/wp-content/uploads/kitten.jpg" height="400" width="800">
+        <img src="http://appacademy.github.io/jQueryPlugins/images/cat15.jpeg" height="400" width="800">
+        <img src="http://fedgeno.com/lol-dog.png" height="400" width="800">
+        
+      </div>
+
+      <a href="javascript:void(0)" class="slide-prev">Prev</a>
+      <a href="javascript:void(0)" class="slide-next">Next</a>
+    </div>
+    
+    <script>
+      $(function() {
+        $('.items').carousel();
+      })
+    </script>
+  </body>
+</html>

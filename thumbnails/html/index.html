@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/thumbnail.js"></script>
+    <link href="../css/thumbnail.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+  </head>
+
+  <body>
+    <div class="thumbnails">
+     <div class="active">
+     </div>
+     
+     <div class="gutter">
+       <a href="javascript:void(0)">&lt;</a>
+       <div class="gutter-images">
+         <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg">
+         <img src="http://placecorgi.com/260/180?no_track=4">
+         <img src="http://placecorgi.com/260/180?no_track=3">
+         <img src="http://placecorgi.com/260/180?no_track=2">
+         <img src="http://placecorgi.com/260/180?no_track=1">
+         <img src="http://d2tq98mqfjyz2l.cloudfront.net/image_cache/1347649565797498.jpg">
+          <img src="http://www.blogcdn.com/www.urlesque.com/media/2009/09/lol-banker.jpg">
+          <img src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=4949523">
+          <img src="http://img.ffffound.com/static-data/assets/6/22883ff6adff77a9652697ed08e7220b14862af2_m.jpg">
+          <img src="http://d2tq98mqfjyz2l.cloudfront.net/image_cache/1349311015517925.jpg">
+          <img src="http://d2tq98mqfjyz2l.cloudfront.net/image_cache/1367930721932553.jpg">
+        </div>
+        <a href="javascript:void(0)">&gt;</a>
+      </div>
+    </div>
+    
+    <script>
+      $(function() {
+        $('.thumbnails').thumbnail();
+      })
+    </script>
+  </body>
+</html>
